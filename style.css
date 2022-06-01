@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #65f6ef 0%, #d05a39 100%);
+}
+
+.pokemon-item {
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
