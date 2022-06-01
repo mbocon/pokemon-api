@@ -9,7 +9,6 @@ fetch(url)
             let pokemonName = pokemon.name;
             let pokemonUrl = pokemon.url;
             let pokemonId = pokemonUrl.split('/')[6];
-            console.log('POKEMON ID ',pokemonId);
             let image = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
             let div = document.createElement('div');
             div.classList.add('pokemon-item');
